@@ -1,0 +1,18 @@
+body
+{ 
+    background:url(https://image.freepik.com/free-vector/doodle-love-icon_1034-778.jpg);
+
+
+}
+div{
+    background: rgb(rgb(145, 255, 0), rgb(0, 70, 128), rgb(255, 0, 149));
+    border-color: pink;
+    border-width:1px;
+    border-style: solid;
+
+}
+p{  
+    font-stretch: wider;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}

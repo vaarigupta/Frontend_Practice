@@ -1,0 +1,53 @@
+#Tim berner's lee discovered html in 1990
+html and xhtml are basics that was firstly discovered 
+mow-a-days , html5 and css3 are being used for creating web-pages.
+
+#There are basically two extensions for the html files ->
+.html
+.htm 
+the basic difference b/w two is that .html could not be  
+recognised by windows 3x and dos as it's a 4 character extension .
+but now the technology has become advanced , new os has been launched
+so that .html extensions are easily recognised by them as 
+html files ,otherwise both are referencing to a html files .
+no difference at all .
+
+#the tag <br /> is used with a space b/w 'br' and forward slash '/'
+because it will create problem when we create complex web page 
+
+#for making the text bold , we can use either <b> or <strong>.
+#for making the text italics, we can use either <i> or <em>.
+
+#for horizontal line , we use <hr /> or <hr >
+
+# The <blockquote> tag specifies a section that is quoted from
+another source.
+basically it used to specify the content that is copyright from
+another source 
+
+# there are 3 types of lists in html ->
+ ** NUMBERED LIST -> we use <ol>
+ **BULLETED LIST -> we use <ul>
+ **DEFINITION LIST -> we use <dl> moreover , we have to use two more tags 
+   <dt> (used for the "term" )and <dd> (used for "describing" the term) 
+   this is used for creating indentation b/w terms and description
+
+# <li> tag is always used in all the three types of list for 
+  writing element
+
+# if we are linking different web pages then then we use anchor tag 
+<a href = "...."> like this and put the url( uniform resource locator)
+which will link all the web pages together and if we have changed the directory 
+then we can link the web page in that directory by using dir name and the web page
+and one more thing , if we wanna move up to another dir and link our web pages
+then we will use "../" 
+
+# one more thing , if we wanna show our web page in a new tab then we will use 
+an attribute -> target = "_blank" in the anchor tag
+
+# to open a link to a webpage in new tab , we use another attribute 
+target = "_blank" in the anchor tag
+
+#If we want to link the paragraph  then instead of using <P> tag with the 
+paragraph we will use anchor <a name = "xyz"> tag with the paragraph
+and we use that paragraph link again with a anchor tag < a href ="name of the file#xyz" >
