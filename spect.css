@@ -1,0 +1,76 @@
+h1
+{
+    font-family: 'Pacifico','Lobster';
+    text-align: center;
+    margin:10px 100px 10px 100px;
+
+}
+body{
+    background-color: #ADF7B6;
+}
+.art{
+    margin: auto;
+
+}
+
+
+td{
+    padding: 100px;
+    border: 6px black solid;
+    height: 200px;
+    width:100px;
+    font-family: 'Shrikhand','Berkshire Swash';
+    font-size: 20px;
+    text-align: center;
+
+}
+#one{
+    background-color: #8F69A9;
+}
+#two{
+background-color: #FDDD3E;
+}
+#three{
+background-color:#4FAF56; 
+}
+#four{
+background-color: #168ABD;
+}
+#five
+{
+background-color: #D03840;
+}
+#six
+{
+    background-color: #F79D84;
+
+}
+#seven{
+    background-color: #A288E3;
+
+}
+#one1{
+    background-color: #119822;
+}
+#two1{
+background-color: #CE6300;
+}
+#three1{
+background-color:#FFC1C1; 
+}
+#four1{
+background-color: #418C64;
+}
+#five1
+{
+background-color: #7AC1FF;
+}
+#six1
+{
+    background-color: #A62639;
+
+}
+#seven1{
+    background-color: #495867;
+
+}
