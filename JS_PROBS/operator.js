@@ -1,4 +1,4 @@
-var a ,b;
+
 function compare(a,b)
 {
 	if(a>b)
