@@ -11,7 +11,7 @@ a.splice(4,0,"hello")
 console.log("after splice" ,a)
 a.splice(4,2,"hyy") 
 /// there are 3 arguments in splice 
-// 1-> specifying the index from where to start adding and deleting 
+// 1-> specifying the index from where to start adding 
 // 2-> no of elements to be deleted from the specfied index
 // 3-> element to be added
 console.log("after splice" ,a)
