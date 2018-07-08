@@ -9,15 +9,15 @@
 // stringTimes("Hi", 3) → "HiHiHi"
 // stringTimes("Hi", 1) → "Hi"
 
-function stringTimes(st, n) {
+function stringTimes(stpara, n) {
 	i =0;
  var str =""
    while(i<n)
    { 
-   	 str =  str + st
+   	 str += stpara
    	 i++
    }
-   console.log(str)
+   return str
 }
 
-stringTimes("Hi",6)
+console.log(stringTimes("Hi",6))

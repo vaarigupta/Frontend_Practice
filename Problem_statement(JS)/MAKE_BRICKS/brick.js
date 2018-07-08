@@ -12,5 +12,17 @@
 // makeBricks(3, 2, 10) → true
 
 function makeBricks(small, big, goal){
-  //Code Goes Here
+
+   if(small + big*5 >=goal)
+   {
+   	return true;
+   }
+   else
+   {
+   	return false;
+   }
 }
+
+console.log(makeBricks(3, 1, 8)) //→ true
+console.log(makeBricks(3, 1, 9)) //→ false
+console.log(makeBricks(3, 2, 10))//→ true

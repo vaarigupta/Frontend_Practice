@@ -16,24 +16,13 @@
 
 
 function caught_speeding(speed, is_birthday)
-{   if(is_birthday)
-	{
-     if(speed<=65)
-  {
-     return 0
-  }
-  if(speed<=85 && speed >=66)
-  {
-  	return 1
-  }
-  if(speed>=86)
-  {
-  	return 2
-  }
+{   
 
-	}
-	else
-	{
+  if (is_birthday) 
+   {
+     speed -=5
+   } 
+	
 
    if(speed<=60)
   {
@@ -48,12 +37,22 @@ function caught_speeding(speed, is_birthday)
   	return 2
   }
 	
+
+
 	}
   
-}
+
 
 var x = caught_speeding(65,true)//0
 var y = caught_speeding(60,false)//0
 var z = caught_speeding(85,true)//1
 var w = caught_speeding(85,false)//2
 console.log(x + " " + y + ' ' + z + ' ' + w )
+console.log(caught_speeding(60, false)) //→ 0
+console.log(caught_speeding(65, false)) //→ 1
+console.log(caught_speeding(65, true)) //→ 0
+console.log(caught_speeding(70,false))//1
+console.log(caught_speeding(82,true))//1
+console.log(caught_speeding(82,false))//2
+
+
