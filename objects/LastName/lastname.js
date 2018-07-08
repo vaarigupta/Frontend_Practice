@@ -10,11 +10,12 @@
 var employee = {
   name: "John Smith",
   job: "Programmer",
-  age: 31
-  lastName : function () {
+  age: 31,
+  lastName : function() {
   	// body...
-  	console.log(this.name.slice(5,10))
+  	console.log(this.name.split(" ")[1])
   }
 }
 
 employee.lastName()
+/// split function is basically used for splitting of string at some of the points and convert into array of substrings
