@@ -6,19 +6,16 @@ h1
 button
 {
 	margin-bottom: 100px;
+	float: right;
 }
 
-.flex-container {
-  display: flex;
-  background-color: #FF1053;
-  justify-content: center;
-  width : 195px;
-  align-items: center;
-}
+td
+{
+	text-align: center;
+	padding: 10px;
+	border : 4px black solid;
+	font-size: 40px;
+	width: 80px;
+	height: 80px;
 
-.flex-container > div {
-  background-color: #F2F3AE;
-  margin: 2px;
-  padding: 30px;
-  font-size: 30px;
 }
